@@ -1,0 +1,99 @@
+body{
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.colunas{
+   
+    border-radius: 15px;
+    margin-top: 30px; 
+    margin-left: 180px;
+    margin-bottom: 100px;
+    width: 960px;
+    height: 470px;
+    
+    
+}
+.coluna1{
+    background: hsl(31, 77%, 52%);
+    width: 200px;
+    height: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+    padding: 60px;
+
+}
+.coluna2{
+    background: hsl(184, 100%, 22%);
+    width: 200px;
+    height: 350px;
+    float: left;
+    padding: 60px;
+}
+.coluna3{
+    background:hsl(179, 100%, 13%);
+    width: 200px;
+    height: 350px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    float: left;
+    padding: 60px;
+}
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+a{
+   
+    text-decoration: none;
+    color: white;
+    text-align: left ;
+    
+    
+}
+.button1{
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border-radius:35px;    
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+   }
+
+.button2{
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    border-radius:35px;    
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    }
+
+
+    
+.button3{
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    border-radius:35px;    
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    padding: 10px 10px 5px 10px;
+    
+    }
+
+
+   .button1.button2.button3:hover{
+    background-color:hsl(75, 94%, 57%) ;
+   }
